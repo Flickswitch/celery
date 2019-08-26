@@ -20,6 +20,7 @@ BACKEND_ALIASES = {
     'amqp': 'celery.backends.amqp:AMQPBackend',
     'rpc': 'celery.backends.rpc.RPCBackend',
     'cache': 'celery.backends.cache:CacheBackend',
+    'sentinel': 'celery.backends.redis:SentinelBackend',
     'redis': 'celery.backends.redis:RedisBackend',
     'mongodb': 'celery.backends.mongodb:MongoBackend',
     'db': 'celery.backends.database:DatabaseBackend',
